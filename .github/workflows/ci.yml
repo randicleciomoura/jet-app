@@ -1,4 +1,4 @@
-name: ci
+name: frontend-ci
 
 on:
   pull_request:
@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  frontend:
+  build:
     runs-on: ubuntu-latest
     defaults:
       run:
